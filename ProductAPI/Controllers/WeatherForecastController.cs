@@ -18,6 +18,7 @@ namespace ProductAPI.Controllers
             _logger = logger;
         }
 
+        // test comment
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
